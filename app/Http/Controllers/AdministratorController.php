@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Administrator;
+use http\Env\Response;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Validator;
 
@@ -47,6 +48,13 @@ class AdministratorController extends Controller
 
 
 
+
+    public function logout(Request $request){
+            if(auth('admin')->logout())
+                return response()->json(['status'=>'success','message'=>'logout'],200);
+
+            return response()->json(['status'=>'failed','message'=>'logout'],400);
+    }
 
     /**
      * register Admin

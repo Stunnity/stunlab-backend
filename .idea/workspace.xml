@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fc05e52d-0e60-4a4b-8c6c-2140f3b70991" name="Default Changelist" comment="" />
+    <list default="true" id="fc05e52d-0e60-4a4b-8c6c-2140f3b70991" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/AdministratorController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/AdministratorController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,6 +146,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1WfeY65LkVq9D4xKNnNQ5yS1nQh" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -199,6 +204,7 @@
       <workItem from="1579686147440" duration="11483000" />
       <workItem from="1579720855420" duration="861000" />
       <workItem from="1579796644167" duration="11885000" />
+      <workItem from="1579844634185" duration="2879000" />
     </task>
     <servers />
   </component>

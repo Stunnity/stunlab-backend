@@ -76,6 +76,8 @@ Route::prefix('auth')->group(function(){
 Route::prefix('admin')->group(function(){
     Route::post('/login','AdministratorController@login');
     Route::post('/register','AdministratorController@register');
+    Route::post('/logout','AdministratorController@logout');
+
 });
 
 Route::get('test','StatisticsController@test');
