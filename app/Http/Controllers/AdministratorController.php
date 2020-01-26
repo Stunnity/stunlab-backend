@@ -40,7 +40,7 @@ class AdministratorController extends Controller
 
 
         if(!$token = auth('admin')->attempt($credentials)){
-            return response()->json(['error'=>'Wrong Email/Password'],401);
+            return response()->json(['error'=>'Wrong Email/Password'],404);
         }
 //        dd(auth('admin')->check());
         return response()->json(['error'=>false,'token'=>$token]);
