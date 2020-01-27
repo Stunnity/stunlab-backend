@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc05e52d-0e60-4a4b-8c6c-2140f3b70991" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DownloadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DownloadController.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -209,7 +207,7 @@
       <workItem from="1579866727347" duration="90000" />
       <workItem from="1579968765480" duration="2727000" />
       <workItem from="1580066073783" duration="3604000" />
-      <workItem from="1580113890634" duration="5139000" />
+      <workItem from="1580113890634" duration="5937000" />
     </task>
     <servers />
   </component>
@@ -217,6 +215,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="43" key="#SQL_Dialects" timestamp="1580128214738">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="43" key="#SQL_Dialects/0.0.1366.768@0.0.1366.768" timestamp="1580128214738" />
     <state x="275" y="43" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579601021855">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

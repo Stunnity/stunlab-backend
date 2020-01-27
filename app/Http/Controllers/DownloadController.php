@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use App\Download;
 use App\User;
+use App\Book;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 
 class DownloadController extends Controller
 {
