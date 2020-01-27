@@ -27,18 +27,18 @@ class BookController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Book $DBbook)
     {
-        $books = Book::all();
+        $books = BOOK::all();
 
-
+//        dd($books);
         foreach ($books as $book){
             $book->file = Book_file::find($book->ISBN)->file;
             $book->cover = Cover::find($book->ISBN)->file;
         }
 
 
-        return $books;
+        return response()->json($books);
     }
 
     /**
