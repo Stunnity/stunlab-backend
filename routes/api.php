@@ -41,6 +41,8 @@ Route::post('/report', 'ReportController@store');
  * search
  */
 Route::get('/search/{table}/{string}', 'SearchController@sortsBook');
+Route::get('/findone/search/{searchString}', 'SearchController@searchBook');
+Route::get('/find/search/query', 'SearchController@queryBook');
 
 
 /**

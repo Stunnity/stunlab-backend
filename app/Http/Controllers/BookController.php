@@ -31,7 +31,7 @@ class BookController extends Controller
     {
         $books = BOOK::all();
 
-//        dd($books);
+        //        dd($books);
         foreach ($books as $book){
             $book->file = Book_file::find($book->ISBN)->file;
             $book->cover = Cover::find($book->ISBN)->file;

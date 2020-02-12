@@ -2,8 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc05e52d-0e60-4a4b-8c6c-2140f3b70991" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/books/2UOWFzuTw0oBUEOBMk0LLbWPINLuB5GarZ3ty5AN.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/books/4kA5n1VN4aZvGqnZIDm9jazQdWpbfb9ZQGDxVWJx.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/books/6Ccc6Tw6DYZTp6SzvCueDoPkJGKHshbawHOJwVzf.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/books/7lXxSHWejSmK00JidXUdyDBI7vOTzy5d1AwsT7FM.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/books/Pwv2jvWGCjkgoztDbBbsncQHdFoSotKrjTt78yjk.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/books/ih0Y22gU0RvfRnmxBWkibwlnDqXke04aUsto0OHi.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/covers/2y123BIlukY3txzwQ9HuPbsbweUctC3RNNM1NoTfL8UdaCApLILYxWIHC.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/covers/2y12ciG1mr6ew9oRYDgZDTMpAeCKDqwx5Bp2PusDW0IWfDI2GQvOtV4q.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/covers/2y12gnCinDxc5MBOvhWed8adPG77r4riixH4hpCWfKfAbBQUTG4wieq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/covers/2y12qee0N5EQAMPeQX6Xql2v8eA5Xrx9REQzZVWLN83ApRhGK6jO9Mdm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/covers/2y12rk6t50ztMGdvU7mUyxyTuwxUdWM6UI5tTxiiPHnE2IBiPFytF4O.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/covers/2y12spwrSI72SDSvClFQxSkkuozZ3cJm6TKtIUy5D48SO4eAtJunb5m.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/DownloadController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/DownloadController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BookController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SearchController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/books/0CzX5elbH61BKb0HvfqODddJ96D1LLWVzTshEUK9.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/books/Eh6PCr2iZN9J7wEpugRkXEuQqDfLvV1yCNnxg1FV.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/books/gIdjUprRXjIMK6ESw1h6jZh7E8itJcCPx3qQEVDx.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/covers/2y12kS0reQ7qSMZeuDP6vMOdFGtxlxkb5deBlmnaoyvAebQyUXNAqK.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/covers/2y12sBIfvY3T9xUFP20ocI7RIJrVjBDLWuanmGdM3vmyTb0VTRAZOsmy.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/covers/2y12xMQSFBjWLXqf4h5mapizBeVu6Gkz5nFyUt06wsRf88J4JaufHfC.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +63,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\liberi\MY\projects\stunlab2\.idea" />
+      </set>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -145,18 +173,22 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1WfeY65LkVq9D4xKNnNQ5yS1nQh" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="database.data.extractors.current.id" value="Tab-separated (TSV)_id" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javascript/vue/vuex-design-course" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -164,7 +196,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -207,12 +239,25 @@
       <workItem from="1579866727347" duration="90000" />
       <workItem from="1579968765480" duration="2727000" />
       <workItem from="1580066073783" duration="3604000" />
-      <workItem from="1580113890634" duration="5937000" />
+      <workItem from="1580113890634" duration="7164000" />
+      <workItem from="1580227451455" duration="1289000" />
+      <workItem from="1580311676324" duration="3626000" />
+      <workItem from="1580411881345" duration="1717000" />
+      <workItem from="1581311542510" duration="102000" />
+      <workItem from="1581312463768" duration="23000" />
+      <workItem from="1581312655743" duration="413000" />
+      <workItem from="1581316798016" duration="8524000" />
+      <workItem from="1581335915109" duration="1699000" />
+      <workItem from="1581351949049" duration="6774000" />
+      <workItem from="1581477682004" duration="3780000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="43" key="#SQL_Dialects" timestamp="1580128214738">
@@ -227,10 +272,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="413" y="140" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1366.768@0.0.1366.768" timestamp="1579559269664" />
-    <state x="463" y="140" key="FileChooserDialogImpl" timestamp="1579969420934">
+    <state x="463" y="140" key="FileChooserDialogImpl" timestamp="1581483868574">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="463" y="140" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1579969420934" />
+    <state x="463" y="140" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1581483868574" />
     <state width="905" height="192" key="GridCell.Tab.0.bottom" timestamp="1579601095464">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -247,10 +292,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="905" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1579601095464" />
-    <state x="184" y="27" key="SettingsEditor" timestamp="1579545216133">
+    <state x="184" y="27" key="SettingsEditor" timestamp="1581316881436">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="184" y="27" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1579545216133" />
+    <state x="184" y="27" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1581316881436" />
     <state x="263" y="40" key="com.intellij.database.dbimport.ImportDialog" timestamp="1579554670723">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -259,10 +304,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="413" y="190" key="com.intellij.database.dbimport.ImportUtil.MyDialog/0.0.1366.768@0.0.1366.768" timestamp="1579554618266" />
-    <state x="379" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1580114075919">
+    <state x="379" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1581477682444">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1580114075919" />
+    <state x="379" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1581477682444" />
     <state x="0" y="0" width="611" height="768" key="find.popup" timestamp="1579698518380">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

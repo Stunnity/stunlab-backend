@@ -96,8 +96,60 @@ class SearchController extends Controller
 
 
         }
-        dd($searchedBook);
-        // return $books;
+//        dd($searchedBook);
+         return response($books);
 
+    }
+
+    public function searchBook(Request $req,Book $book){
+//        dd($req->all());
+        $searched = $book->newQuery();
+        $searchString= $req->s_q;
+        $searched->where('name','like','%' . $searchString . '%');
+//        dd($searched->get());
+    return response()->json($searched->get());
+    }
+
+    public function queryBook(Request $req, Book $book)
+    {
+        $s_q = $req->s_q;
+        $searchedBook =$book->newQuery();
+        $searchedBook->where('name','like','%'. $s_q.'%');
+        if($req->has('level')){
+            $searchedBook->where('level_levelName',$req->level);
+        }
+        if($req->has('provider'))
+            $searchedBook->where('provider_providerName');
+        if($req->has('categ'))
+            $searchedBook->where('category_categoryName');
+        if($req->has('order')){
+
+
+
+            if($req->order == "desc"){
+
+                if($req->has('downloads'))
+                    $searchedBook->join('downloads','books.ISBN','=','downloads.book_bookISBN')->groupBy('downloads.book.bookISBN AS counts')->orderByDesc('counts');
+
+                if($req->has('likes'))
+                    $searchedBook->join('likes','books.ISBN','=','likes.book_bookISBN')->groupBy('likes.book.bookISBN AS counts')->orderByDesc('counts');
+
+                if($req->has('reads'))
+                    $searchedBook->join('reads','books.ISBN','=','reads.book_bookISBN')->groupBy('reads.book.bookISBN AS counts')->orderByDesc('counts');
+
+            } elseif ($req->order == "asc"){
+                if($req->has('downloads'))
+                    $searchedBook->join('downloads','books.ISBN','=','downloads.book_bookISBN')->groupBy('downloads.book.bookISBN AS counts')->orderBy('counts');
+
+                if($req->has('likes'))
+                    $searchedBook->join('likes','books.ISBN','=','likes.book_bookISBN')->groupBy('likes.book.bookISBN AS counts')->orderBy('counts');
+
+                if($req->has('reads'))
+                    $searchedBook->join('reads','books.ISBN','=','reads.book_bookISBN')->groupBy('reads.book.bookISBN AS counts')->orderBy('counts');
+
+            }
+        }
+
+        return response()->json($searchedBook->get());
     }
 }
